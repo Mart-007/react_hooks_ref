@@ -1,4 +1,4 @@
-//This approach returns Nan for counter when you type on input field, but the counter works wen hit it first.
+//This approach returns Nan for counter when you type on input field, but the counter works when you hit it first.
 //This is because using an object in -useState- will completely replace the object instead of merging it when we set state using setState method.
 
 import React, { useState } from 'react';
